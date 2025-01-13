@@ -57,7 +57,7 @@ public class App {
             System.out.println("\nValor total vendido pelo vendedor " + usuario + " nos meses 1 e 7 = " + sum + "\n");
 
         } catch (IOException e) {
-            System.out.println("Error: " + path + " (O sistema não pode encontrar o arquivo especificado)");
+            System.out.println("Erro: " + path + " (O sistema não pode encontrar o arquivo especificado)");
         }
 
     }
